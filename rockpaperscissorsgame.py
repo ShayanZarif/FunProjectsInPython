@@ -5,7 +5,7 @@ from random import randint as ri
 
 options = ["ROCK", "PAPER", "SCISSORS"]
 message = {
-	"tie": "Yawn it's a tie!",
+  "tie": "Yawn it's a tie!",
   "won": "Yay yoy won!",
   "lost": "Aww you lost!"
 }
@@ -18,7 +18,7 @@ def decide_winner(user_choice,computer_choice):
     print('%s'%(message['won']))
     
   elif user_choice == options[1] and computer_choice == options[0]:
-	print('%s'%(message['won']))
+    print('%s'%(message['won']))
     
   elif user_choice == options[2] and computer_choice == options[1]:
     print(message['won'])
