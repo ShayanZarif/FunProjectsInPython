@@ -1,7 +1,3 @@
-"""
-This is a random number guesser in python by the 
-great programmer Shayan Zarif.
-"""
 from random import randint as ri
 from time import sleep as s
 def get_user_guess():
